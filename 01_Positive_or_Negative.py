@@ -20,5 +20,5 @@ else:
     print("Negative")
 
 # Method 3 : Using Ternary Operator
-# Syntax : ((Condition)? (if True:Action):(if False:Action))
+# Syntax : ( True : Action ) if ( Condition ) else ( False : Action )
 print("Positive" if num>=0 else "Negative")
